@@ -1,0 +1,45 @@
+.create {
+
+    &__wrapper {
+        margin-top: 150px;
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+    }
+
+    &__title {
+        color: white;
+        font-weight: 500;
+        font-size: 48px;
+        font-family: inter sans-serif;
+    }
+
+    &__span {
+        color: yellow;
+        font-family: inter sans-serif;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFD;
+        margin-top: 20px;
+    }
+
+    &__img {
+        margin-top: 100px;
+        margin-right: 350px;
+    }
+
+    &::after {
+        width: 410px;
+        height: 475px;
+
+        content: "";
+        position: absolute;
+        background-image: url(../../assets/images/create\ img\ 2.svg);
+        z-index: -1;
+        right: 130px;
+        top: 1800px;
+    }
+}

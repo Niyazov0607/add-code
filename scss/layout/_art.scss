@@ -1,0 +1,108 @@
+.art {
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    &__card-1 {
+        background-color: #131E3A;
+        border-radius: 28px;
+        padding: 10px 25px;
+        transition: 0.3s ease;
+    }
+
+    &__card-1:hover {
+        box-shadow: 1px 1px 5px 5px lightyellow;
+    }
+
+    &__card-2 {
+        background-color: #131E3A;
+        border-radius: 28px;
+        padding: 3px 20px;
+        transition: 0.3s ease;
+    }
+
+    &__card-2:hover {
+        box-shadow: 1px 1px 5px 5px lightyellow;
+    }
+
+    &__card-3 {
+        background-color: #131E3A;
+        border-radius: 28px;
+        padding: 3px 20px;
+        transition: 0.3s ease;
+    }
+
+    &__card-3:hover {
+        box-shadow: 1px 1px 5px 5px lightyellow;
+    }
+
+    &__info {
+        display: flex;
+        margin-top: 200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        color: white;
+        font-weight: 500;
+        font-size: 48px;
+        font-family: inter sans-serif;
+        
+    }
+
+    &__span-1 {
+        color: yellow;
+        font-family: inter sans-serif;
+    }
+
+    &__span-2 {
+        color: yellow;
+        font-family: inter sans-serif;
+    }
+
+    &__img {
+        margin-top: 50px;
+    }
+
+    &__span-3 {
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__span-4 {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        margin-left: 80px;
+    }
+
+    &__span-5 {
+        margin-top: 20px;
+    }
+
+    &__spn-5 {
+        color: grey;
+    }
+
+    &__span-btn {
+        margin-top: 20px;
+    }
+
+    &__span-icon {
+        color: white;
+    }
+
+    &__time {
+        color: white;
+    }
+
+    &__btn-2 {
+        margin-left: 100px;
+    }
+    
+}

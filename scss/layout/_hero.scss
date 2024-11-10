@@ -1,0 +1,120 @@
+.hero {
+
+    &__wrapper {
+        display: flex;
+        gap: 200px;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 64px;
+        color: white;
+        font-family: inter sans-serif;
+    }
+    &__spn {
+        color: yellow;
+        font-family: inter sans-serif;
+    }
+
+    &__text {
+        color: #FFFFFD;
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    &__numbers-style {
+        display: flex;
+        margin-top: 100px;
+        gap: 50px;
+    }
+
+    &__art-work {
+        color: yellow;
+        font-weight: 500;
+        font-size: 48px;
+        font-family: inter sans-serif;
+        
+    }
+
+    &__letter {
+        color: white;
+        font-weight: 500;
+        font-size: 48px;
+        border-right: 1px solid yellow;
+        font-family: inter sans-serif;
+    }
+    &__last-letter {
+        color: white;
+        font-weight: 500;
+        font-size: 48px;
+        font-family: inter sans-serif;
+    }
+
+    &::after {
+        width: 631px;
+        height: 458px;
+
+        content: "";
+        position: absolute;
+        background: #1f413d;
+        z-index: -1;
+        filter: blur(120px);
+        right: 250px;
+        top: 300px;
+        
+    }
+
+    &__img {
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+
+    &__img:hover {
+        transform: scale(1.036);
+    }
+
+    &__event {
+        display: flex;
+        width: 304px;
+        padding: 20px;
+        position: absolute;
+        bottom: -93px;
+        right: 100px;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        border-radius: 16px;
+        border: 1px solid #D6EF0E;
+        background: #131E3A;
+        box-shadow: 0px 9px 50px 0px #1724410A;
+        
+
+        &-info {
+            margin-left: -180px;
+            color: #D6EF0E;
+        }
+
+        &-time {
+            color: white;
+        }
+
+        &-current-big {
+            margin-right: -180px;
+            margin-top: -70px;
+            color: #D6EF0E;
+        }
+
+        &-spn {
+            color: yellow;
+        }
+        
+        &-number {
+            color: white;
+        }
+    }
+
+}

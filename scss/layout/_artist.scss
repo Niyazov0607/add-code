@@ -1,0 +1,119 @@
+.artist {
+    &__wrapper {
+        position: relative;
+    }
+
+    &__data {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &__title {
+        color: white;
+        font-weight: 500;
+        font-size: 48px;
+        font-family: inter sans-serif;
+    }
+
+    &__spn {
+        color: yellow;
+        font-family: inter sans-serif;
+    }
+
+    &__img-1 {
+        margin-top: 50px;
+    }
+
+    &__info-name {
+        position: absolute;
+        display: flex;
+        bottom: 25px;
+        left: 20px;
+
+    }
+
+    &__owner {
+        color: white;
+        padding-left: 20px;
+    }
+    &__name {
+        color: white;
+        margin-top: 25px;
+        margin-left: -50px;
+    }
+
+    &__card-2 {
+        margin-left: 330px;
+        margin-top: -317px;
+        position: relative;
+        
+    }
+
+    &__info-name-2 {
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+    }
+
+    &__owner-2 {
+        color: white;
+        margin-left: 8px;
+    }
+    &__name-2 {
+        color: white;
+        margin-left: 8px;
+    }
+
+    &__spans {
+        margin-top: -50px;
+    }
+
+    &__card-3 {
+        margin-top: 20px;
+    }
+
+    &__card-4 {
+        position: relative;
+        margin-left: 440px;
+        margin-top: -335px;
+    }
+
+    &__info-name-4 {
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+    }
+
+    &__spans {
+        margin-left: 60px;
+    }
+    &__owner-4 {
+        color: white;
+    }
+    &__name-4 {
+        color: white;
+    }
+
+    &__card-5 {
+        position: relative;
+        margin-left: 880px;
+        margin-top: -654px;
+    }
+
+    &__info-name-5 {
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+    }
+
+    &__spans {
+        margin-left: 60px;
+    }
+    &__owner-5 {
+        color: white;
+    }
+    &__name-5 {
+        color: white;
+    }
+}
